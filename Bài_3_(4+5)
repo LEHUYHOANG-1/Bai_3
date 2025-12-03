@@ -1,0 +1,13 @@
+a = "Hello Guy!"
+def say(a):
+    a = "Vinh University"
+    print(a)
+say(a)
+print(a)  # vẫn "Hello Guy!"
+
+def say2():
+    global a
+    a = "Vinh University"
+    print(a)
+say2()
+print(a)
